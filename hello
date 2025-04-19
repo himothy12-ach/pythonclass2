@@ -1,22 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Roblox Page</title>
-    <link rel="icon" type="image/png" href="Gojo.jpg"> <!-- Replace with your favicon file -->
+  <title>Colorful Table</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 60%;
+      margin: 20px auto;
+      background-color: AliceBlue; 
+    }
+    th {
+      background-color: SteelBlue; 
+      color: white;
+      padding: 10px;
+    }
+    td {
+      padding: 10px;
+      text-align: center;
+    }
+    tr:nth-child(even) {
+      background-color: LightCyan; 
+    }
+    tr:nth-child(odd) {
+      background-color: White; 
+    }
+  </style>
 </head>
 <body>
-    <h1>Welcome to My Page</h1>
-    
-    <!-- Link to your Roblox account -->
-    <p>
-        <a href="https://www.roblox.com/users/3822293383/profile" target="_blank">My Roblox Profile</a>
-    </p>
-    
-    <!-- Image of yourself -->
-    <p>
-        <img src="Screenshot 2025-03-05 061445.png" alt="My Roblox Screenshot" width="600">
-    </p>
+
+  <h2 style="text-align:center;">Table with Named Colors</h2>
+
+  <table border="1">
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>City</th>
+    </tr>
+    <tr>
+      <td>Alice wonderland</td>
+      <td>25</td>
+      <td>New York</td>
+    </tr>
+    <tr>
+      <td>Bob</td>
+      <td>12</td>
+      <td>Los Angeles</td>
+    </tr>
+    <tr>
+      <td>Charlie</td>
+      <td>4</td>
+      <td>Chicago</td>
+    </tr>
+  </table>
+
 </body>
 </html>
+
